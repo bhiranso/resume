@@ -1,0 +1,193 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Bryan Hiransomboon} \\ \vspace{1pt}
+    \small (818) 869-4638 $|$ Los Angeles, CA  $|$ \href{mailto:bhiranso@gmail.com}{\underline{bhiranso@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/bhiranso}{\underline{linkedin.com/in/bhiranso}}
+\end{center}
+
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Product Manager}{June 2020 -- Present}
+      {Apple Inc.}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Identified 5 areas of improvement within TV+’s solution architecture and led the ideation to pitch of those products, resulting in the successful green light from TV+ executives}
+        \resumeItem{Managed the entire software development life cycles of the products in my portfolio, with hands on experience in the discovery, user research, low fidelity to high fidelity designs, and engineering}
+        \resumeItem{Initiated and launched an optical character recognition and natural language processing enabled web application to automatically parse studio legal documents, which now serves as the source of truth and key system for other Apple internal teams that needs to reference relevant legal clauses}
+        \resumeItem{Initiated and launched a first-of-its-kind product (patent pending) in the entertainment studio world to automate the end-to-end process for TV+’s creation of their content title credits (i.e., opening and end titles in a series/feature), increasing productivity by 60 percent}
+        \resumeItem{Developed the SQL code and launched a business intelligence report in Tableau that automatically identifies financial reporting discrepancies from the migration of TV+’s legacy financial system, eliminating the need for manual reconciliation for the finance and accounting departments}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Product Analyst / Management Consultant}{June 2018 -- June 2020}
+      {Deloitte Consulting}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Led requirements gathering meetings across multiple business units to design and build a streamlined Salesforce Platform application supporting the creative marketing workflows and financial planning for multiple television, film, and online streaming studios}
+        \resumeItem{Managed the functional design and supported the technical solutioning through the creation of functional and technical user stories and clickable prototypes}
+        \resumeItem{Led the design hand off grooming sessions with teams of 20+ software developers (both on site and remote) to facilitate technical product development that addresses and anticipates the business requirements}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Virtual Theme Park Minecraft Multiplayer Server} \emph{}}{March 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Capitalized on the closure of real-life theme parks due to the Covid-19 lock downs to grow a Minecraft based virtual theme park/metaverse from 100,000 to 400,000 unique players to date}
+            \resumeItem{Increased player engagement through tweaking game mechanics and product strategy to drive continued player incentivization resulting in player growth from ~50 to ~200 daily active players}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {California State University, Northridge}{Los Angeles, CA}
+      {Bachelor of Science in Computer Information Technology}{May 2018}
+  \resumeSubHeadingListEnd
+
+%
+%-----------MISCELLANEOUS-----------
+\section{Miscellaneous}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Skills}{: Web development, DevOps, advanced Excel, SQL, low fidelity prototyping (via Sketch/Figma)} \\
+     \textbf{Technical Certifications}{: 8x Salesforce certifications (CRM, marketing automation, business systems solutioning), Marketo certified (email marketing)} \\
+     \textbf{Interests}{: Diversity and inclusion, student development, video games, virtual reality, pop-punk music} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
